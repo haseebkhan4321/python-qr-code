@@ -1,7 +1,7 @@
 import qrcode
 from PIL import Image
 app_link = "https://apps.apple.com/pk/app/wisemarket/id6474654022"
-logo_path = "wm4.png"  # Replace with your actual logo path
+logo_path = "logo.png"  # Replace with your actual logo path
 qr = qrcode.QRCode(
     version=1,
     error_correction=qrcode.constants.ERROR_CORRECT_H,  # Allows for more error correction
@@ -20,4 +20,4 @@ logo_position = (
     (qr_img.size[1] - logo.size[1]) // 2,
 )
 qr_img.paste(logo, logo_position, mask=logo.split()[3])  # Use the alpha channel as mask
-qr_img.save("./generated-qr/wisemarket_mobile_ios_app_qr.png")
+qr_img.save("./generated-qr/generated.png")
