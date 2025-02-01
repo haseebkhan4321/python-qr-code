@@ -20,4 +20,4 @@ logo_position = (
     (qr_img.size[1] - logo.size[1]) // 2,
 )
 qr_img.paste(logo, logo_position, mask=logo.split()[3])  # Use the alpha channel as mask
-qr_img.save("wisemarket_mobile_ios_app_qr.png")
+qr_img.save("./generated-qr/wisemarket_mobile_ios_app_qr.png")
