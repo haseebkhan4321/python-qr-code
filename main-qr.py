@@ -1,7 +1,7 @@
 import qrcode
 from PIL import Image
-app_link = "https://apps.apple.com/pk/app/wisemarket/id6474654022"
-logo_path = "logo.png"  # Replace with your actual logo path
+app_link = "https://wisewheels.com.pk/"
+logo_path = "logo/logo.png"  # Replace with your actual logo path
 qr = qrcode.QRCode(
     version=1,
     error_correction=qrcode.constants.ERROR_CORRECT_H,  # Allows for more error correction
