@@ -1,8 +1,8 @@
 # Ignore all files in this folder
 *
 
-# But do not ignore this logo.png file
-!logo.png
+# But do not ignore this logo-wm.png file
+!logo-wm.png
 
 # But do not ignore this .gitignore file
 !.gitignore
